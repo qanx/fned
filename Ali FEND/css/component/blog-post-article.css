@@ -1,0 +1,64 @@
+.grid-blog-post__main{
+    display: flex;
+    flex-direction: column;
+  
+    padding: 0 25%;
+    background-color: rgb(214, 204, 192);
+    margin: 0px 10px;
+
+}
+
+.bolg-Author_Info{
+    display: flex;
+}
+.grid-blog-post-main__post{
+    background-color: rgb(87, 87, 87);
+}
+.auther_img{
+    
+  height: auto;
+  width: 5%;
+  border-radius: 50%;
+  border: 5px solid #272133;
+  margin:10px 20px;
+ 
+}
+.bolg-Author_Info{
+    display: flex;
+    justify-content: flex-start;
+    margin:1% 20%;
+}
+.bolg-Author_Info >*{
+    align-self: center;
+}
+
+figure  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+figure > Img {
+height: 75%;
+width: 75%;
+align-self: center;
+}
+
+.bolg-Author_Info{
+    background-color: rgb(190, 190, 190);
+    border-radius: 25px;
+}
+.A_name{
+    font-size: 1.5rem;
+}
+#post__pragraph{
+
+    margin: 20px 10px;
+    text-align: left;
+    background-color: rgb(155, 129, 96);
+    padding: 20px;
+    border-radius: 20px;
+}
+figcaption{
+color: white;
+}

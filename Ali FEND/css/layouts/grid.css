@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    height: 100vh;
+  min-width: 320px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.2fr 6fr 2.5fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "nav nav nav nav"
+      "bann bann bann bann"
+      "main main main main"
+      "footer footer footer footer";
+    
+  }
+  .grid-container__nav { grid-area: nav; }
+  .grid-container__banner{grid-area: bann; }
+  .grid-container__main { grid-area: main; padding-top:60px ; ;}
+  .grid-container__footer { grid-area: footer; }

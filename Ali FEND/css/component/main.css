@@ -1,0 +1,12 @@
+.grid-container__main{
+  min-width:  320px;
+  background-color: blanchedalmond;
+  grid-area:"mid";
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  gap:10px;
+  
+
+}
+
